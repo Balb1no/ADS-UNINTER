@@ -1,0 +1,19 @@
+*{
+    text-align: center;
+    color: red;
+}
+
+p {
+    text-align: left;
+    color: blue;
+}
+
+.p {
+    text-align: right;
+    color: green;
+}
+
+#p {
+    text-align: justify;
+    color: orange;
+}

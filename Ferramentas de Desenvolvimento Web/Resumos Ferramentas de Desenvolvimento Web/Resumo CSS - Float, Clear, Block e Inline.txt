@@ -1,0 +1,36 @@
+# Resumo CSS - Float, Clear, Block e Inline
+
+1. Float
+   - Faz o elemento "flutuar" à esquerda ou à direita dentro do contêiner.
+   - Muito usado para colocar imagens ou caixas lado a lado.
+   - Valores: left | right | none | inherit
+   - Exemplo:
+     img { float: left; }
+
+   Obs: quando um elemento flutua, o conteúdo seguinte pode "subir" e ficar ao lado dele.
+
+2. Clear
+   - Controla se um elemento deve evitar ficar ao lado de elementos com float.
+   - Valores: left | right | both | none
+   - Exemplo:
+     p { clear: both; }
+
+   ➡️ Usado para “limpar” o fluxo e empurrar o próximo elemento para baixo dos floats.
+
+3. Elementos Block
+   - Ocupam toda a largura disponível do contêiner.
+   - Sempre começam em uma nova linha.
+   - Aceitam propriedades de largura, altura, margin e padding.
+   - Exemplos: <div>, <p>, <h1> até <h6>, <section>, <article>.
+
+4. Elementos Inline
+   - Ocupam apenas o espaço necessário do conteúdo.
+   - Não quebram linha automaticamente.
+   - Não aceitam width/height diretamente (apenas margin/padding horizontal).
+   - Exemplos: <span>, <a>, <strong>, <em>, <img>.
+
+5. Dica extra: Inline-Block
+   - Combina características dos dois.
+   - Fica na mesma linha (como inline), mas aceita width/height (como block).
+   - Exemplo:
+     .caixa { display: inline-block; }

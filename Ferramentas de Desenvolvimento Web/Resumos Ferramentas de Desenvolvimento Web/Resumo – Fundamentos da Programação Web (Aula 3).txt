@@ -1,0 +1,79 @@
+Resumo – Fundamentos da Programação Web (Aula 3)
+
+Introdução
+- Objetivo: aprofundar o uso do CSS.
+- Estrutura do curso:
+  1. Árvore do documento (DOM)
+  2. Pseudoclasses e pseudoelementos
+  3. Menus e botões
+  4. Dimensionamento, variáveis e formatações para imagens
+  5. Transformações 2D e transições
+
+Tema 1 – Árvore do Documento (DOM)
+- DOM representa a estrutura hierárquica dos elementos HTML.
+- Conceitos:
+  - Pai/filho: elementos contidos dentro de outros.
+  - Ancestral/descendente: relação entre níveis diferentes.
+  - Irmãos: elementos no mesmo nível.
+- Seletores relacionados:
+  - E F → descendente
+  - E > F → filho direto
+  - E + F → irmão imediato
+  - E ~ F → irmãos posteriores
+  - :first-child / :last-child → primeiro ou último filho.
+
+Tema 2 – Pseudoclasses e Pseudoelementos
+- Pseudoclasses (usam `:`):
+  - :link → link não visitado
+  - :visited → link visitado
+  - :hover → mouse sobre
+  - :active → elemento clicado
+  - :focus → elemento em foco
+  - :checked → checkbox/radio selecionado
+  - :enabled / :disabled → campos habilitados ou desabilitados
+- Ordem correta: link → visited → hover → active.
+- Pseudoelementos (usam `::`):
+  - ::after → adiciona conteúdo depois
+  - ::before → adiciona conteúdo antes
+  - ::first-letter → estiliza primeira letra
+  - ::first-line → estiliza primeira linha
+  - ::marker → estiliza marcadores de lista
+  - ::selection → estiliza texto selecionado.
+
+Tema 3 – Menus e Botões
+- Barra de navegação vertical:
+  - Criada com listas (<ul>, <li>, <a>).
+  - CSS: remove marcadores, define largura, cores e hover.
+- Barra de navegação horizontal:
+  - Uso de `float: left;` ou `display: inline;`.
+- Menu suspenso:
+  - Lista dentro de lista.
+  - CSS com `position: relative` e `absolute`, `display: none` e `display: block` no hover.
+- Botões:
+  - Criados com <button>, <a> ou <input type="button">.
+  - CSS: background, padding, cor, fonte, margens.
+
+Tema 4 – Outras Formatações
+- Dimensionamento:
+  - Largura real = width + padding + border.
+  - Usar `box-sizing: border-box;` para incluir borda e padding no cálculo.
+- Variáveis:
+  - Declaradas com `--nome` e usadas com `var(--nome)`.
+  - Escopo global: :root.
+- Imagens:
+  - border-radius → cantos arredondados ou circulares.
+  - opacity → transparência (0 a 1).
+  - Centralização: `display: block; margin: auto;`.
+  - Redimensionamento: `max-width: 100%; height: auto;`.
+
+Tema 5 – Movimentos em CSS
+- Transformações 2D (propriedade transform):
+  - translateX(), translateY(), translate(x,y) → deslocamento.
+  - scaleX(), scaleY(), scale() → redimensionamento.
+  - rotate() → rotação (deg, rad, grad, turn).
+  - skewX(), skewY(), skew() → inclinação.
+- Sistema de coordenadas: origem no canto superior esquerdo.
+
+Conclusão
+- CSS avançado permite criar menus, botões, aplicar variáveis, manipular imagens e realizar transformações.
+- Essencial para layouts modernos e interativos.

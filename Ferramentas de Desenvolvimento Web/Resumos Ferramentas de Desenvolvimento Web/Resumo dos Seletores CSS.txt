@@ -1,0 +1,41 @@
+# Resumo dos Seletores CSS
+
+1. Seletor Universal (*)
+   - Sintaxe: *
+   - Seleciona todos os elementos da página.
+   - Exemplo: * { margin: 0; }
+
+2. Seletor de Elemento
+   - Sintaxe: nome da tag
+   - Seleciona todos os elementos de uma tag específica.
+   - Exemplo: p { color: blue; }
+
+3. Seletor de Classe
+   - Sintaxe: .nome
+   - Seleciona todos os elementos com class="nome".
+   - Exemplo: .destaque { color: red; }
+
+4. Seletor de Id
+   - Sintaxe: #nome
+   - Seleciona o elemento único com id="nome".
+   - Exemplo: #titulo { font-size: 20px; }
+
+5. Seletor de Agrupamento
+   - Sintaxe: tag1, tag2
+   - Seleciona vários elementos ao mesmo tempo.
+   - Exemplo: h1, h2 { text-align: center; }
+
+6. Seletor Descendente
+   - Sintaxe: pai filho
+   - Seleciona elementos dentro de outro.
+   - Exemplo: div p { color: green; }
+
+7. Pseudo-classes
+   - Sintaxe: :estado
+   - Seleciona elementos em um estado especial.
+   - Exemplo: a:hover { color: orange; }
+
+8. Pseudo-elementos
+   - Sintaxe: ::parte
+   - Seleciona parte específica de um elemento.
+   - Exemplo: p::first-line { font-weight: bold; }

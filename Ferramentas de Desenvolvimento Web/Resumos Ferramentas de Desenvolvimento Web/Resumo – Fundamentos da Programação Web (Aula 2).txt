@@ -1,0 +1,63 @@
+Resumo – Fundamentos da Programação Web (Aula 2)
+
+Introdução
+- Objetivo: aprender formatações básicas em CSS.
+- Estrutura do curso:
+  1. Definição, sintaxe, seletores, aplicação e hierarquia CSS
+  2. Comentários, cores, fundo, bordas, margin e padding
+  3. Width, height, formatação de texto/fonte e box model
+  4. Float, clear, elementos block e inline
+  5. Display, position, z-index e overflow
+
+Tema 1 – CSS
+- CSS = Cascading Style Sheets (Folhas de Estilo em Cascata).
+- Função: separar estrutura (HTML) da apresentação (CSS).
+- Sintaxe: seletor { propriedade: valor; }
+- Seletores:
+  - ID (#id)
+  - Classe (.classe)
+  - Universal (*)
+  - Agrupamento (h1, h2, p)
+- Formas de aplicar CSS:
+  - Externo (arquivo .css)
+  - Interno (dentro da tag <style>)
+  - Inline (direto na tag)
+- Hierarquia: inline > interno/externo > padrão do navegador.
+
+Tema 2 – CSS Básico
+- Comentários: /* comentário */
+- Cores: nomes predefinidos, RGB, HEX, HSL.
+- Background: background-color, background-image.
+- Bordas: border-width, border-color, border-style, border-radius.
+- Margin: espaço externo ao redor do elemento.
+- Padding: espaço interno entre conteúdo e borda.
+
+Tema 3 – CSS Avançado
+- Width/Height: definem largura e altura.
+- max-width: largura máxima.
+- Formatação de texto:
+  - color, text-align, text-decoration (overline, underline, line-through).
+- Formatação de fonte:
+  - font-family (serif, sans-serif), font-size.
+- Box model: cada elemento é uma caixa composta por:
+  - Content, Padding, Border, Margin.
+
+Tema 4 – Layout
+- Float: posiciona elementos (left, right, none, inherit).
+- Clear: força elementos a ficarem abaixo (não ao lado).
+- Elementos block: <div>, <p>, <section>, <table> etc.
+- Elementos inline: <span>, <a>, <b>, <i>, <button> etc.
+
+Tema 5 – Display e Posicionamento
+- Display: define como o elemento aparece (block, inline, none).
+- Position:
+  - static: padrão
+  - relative: relativo à posição normal
+  - fixed: fixo na tela
+  - absolute: relativo ao ancestral posicionado
+- Z-index: controla ordem de empilhamento dos elementos.
+
+Conclusão
+- CSS é essencial para estilizar páginas HTML.
+- Permite controlar cores, fontes, espaçamentos, layout e posicionamento.
+- Junto com HTML, forma a base do desenvolvimento front-end.

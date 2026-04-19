@@ -1,0 +1,44 @@
+# ============================================
+# RESUMO - LÓGICA DE PROGRAMAÇÃO E ALGORITMOS
+# ============================================
+
+# 🔹 ALGORITMOS SEQUENCIAIS
+# Executam instruções em sequência, sem desvios.
+# Exemplo: lenhador que segue passos até cortar lenha.
+
+# 🔹 ESTRUTURAS CONDICIONAIS
+# Permitem decisões no fluxo do programa.
+# Tipos:
+#   if -> condicional simples
+#   if / else -> condicional composta
+#   elif -> múltipla escolha
+#   if dentro de if -> aninhada
+
+# 🔹 PYTHON - SINTAXE
+# if condição:
+#     instruções
+# else:
+#     instruções alternativas
+# Indentação obrigatória (define blocos)
+# Comentários com "#"
+
+# 🔹 EXEMPLOS
+# Comparar números:
+# if x > y: print("O primeiro é maior")
+# else: print("O segundo é maior")
+
+# Par ou ímpar:
+# if x % 2 == 0: print("Par")
+# else: print("Ímpar")
+
+# 🔹 EXPRESSÕES LÓGICAS / BOOLEANAS
+# Operadores:
+#   not -> negação
+#   and -> conjunção (ambos verdadeiros)
+#   or  -> disjunção (um verdadeiro basta)
+
+# 🔹 BOAS PRÁTICAS
+# - Evite repetir código
+# - Prefira condicional composta a várias simples
+# - Use expressões lógicas para condições complexas
+# ============================================

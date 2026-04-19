@@ -1,0 +1,66 @@
+# ============================================
+# RESUMO - AULA 2: PRIMEIROS PASSOS EM PYTHON
+# ============================================
+
+# 🔹 AMBIENTES DE DESENVOLVIMENTO
+# - IDLE: interpretador padrão do Python (executa linha por linha).
+# - IDEs: PyCharm (profissional, depuração).
+# - Jupyter Notebook / Google Colab: ambiente online, mistura texto e código.
+
+# 🔹 CICLO DE PROCESSAMENTO DE DADOS
+# 1. Entrada → dados fornecidos (ex: teclado).
+# 2. Processamento → CPU executa instruções.
+# 3. Saída → resultado exibido (ex: monitor).
+# Exemplo: soma de dois números → entrada (x,y), processamento (x+y), saída (resultado).
+
+# 🔹 PRIMEIRO PROGRAMA
+# print('Olá, Mundo!')
+# - Função print exibe mensagens ou resultados.
+# - Aspas delimitam textos (strings).
+# - Sem aspas → operações matemáticas.
+# - Concatenar mensagens: '+' ou ','.
+
+# 🔹 OPERADORES MATEMÁTICOS EM PYTHON
+# +  → adição
+# -  → subtração
+# *  → multiplicação
+# /  → divisão com decimais
+# // → divisão inteira
+# %  → resto da divisão
+# ** → potência
+# → Ordem de precedência igual à matemática (parênteses têm prioridade).
+
+# 🔹 VARIÁVEIS E TIPOS DE DADOS
+# - Variável: nome que representa uma posição na memória.
+# - Atribuição: '=' (valor à direita é armazenado na variável à esquerda).
+# - Tipos primitivos:
+#   1. Numérico → int, float
+#   2. Caractere → letras, símbolos
+#   3. Booleano → True / False
+#   4. String → cadeia de caracteres (texto)
+
+# 🔹 REGRAS PARA NOMES DE VARIÁVEIS
+# - Não podem começar com número.
+# - Permitidos: letras, números, sublinhado (_).
+# - Espaços e caracteres especiais não são permitidos.
+# - Evitar acentuação (mesmo que Python 3 aceite).
+
+# 🔹 OPERADORES RELACIONAIS (comparações)
+# == → igual
+# >  → maior
+# <  → menor
+# >= → maior ou igual
+# <= → menor ou igual
+# != → diferente
+# → Resultado sempre booleano (True ou False).
+
+# ============================================
+# CONCLUSÃO
+# Aula 2 introduz prática em Python:
+# - Ambiente de desenvolvimento
+# - Entrada, processamento e saída
+# - Função print
+# - Operadores matemáticos
+# - Variáveis e tipos de dados
+# - Regras de nomes e operadores relacionais
+# ============================================

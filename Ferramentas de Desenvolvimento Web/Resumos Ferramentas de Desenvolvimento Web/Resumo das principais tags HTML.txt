@@ -1,0 +1,51 @@
+# Resumo das principais tags HTML
+
+1. Estrutura básica
+<html> → Início do documento.
+<head> → Informações da página (título, CSS, meta).
+<body> → Conteúdo visível da página.
+
+2. Texto
+<h1> até <h6> → Títulos e subtítulos (níveis de importância).
+<p> → Parágrafo.
+<br> → Quebra de linha.
+<span> → Trecho em linha (inline).
+<div> → Divisão/contêiner (agrupa elementos).
+
+3. Listas
+<ul> → Lista não ordenada (bolinhas).
+<ol> → Lista ordenada (números).
+<li> → Item da lista.
+
+4. Links e Imagens
+<a href="..."> → Link para outra página/site.
+<img src="..."> → Insere uma imagem.
+
+5. Tabelas
+<table> → Cria tabela.
+<tr> → Linha.
+<th> → Cabeçalho (negrito).
+<td> → Célula de dados.
+<caption> → Título da tabela.
+<thead> → Agrupa cabeçalhos.
+<tbody> → Agrupa corpo.
+<tfoot> → Agrupa rodapé.
+colspan → Mescla colunas.
+rowspan → Mescla linhas.
+
+6. Formulários
+<form> → Cria formulário.
+<label> → Rótulo para campo.
+<input> → Campo de entrada.
+   Tipos comuns:
+   - text → Texto
+   - password → Senha
+   - email → Email
+   - number → Número
+   - checkbox → Caixa de seleção
+   - radio → Botão de opção
+   - submit → Botão de envio
+
+7. Atributos importantes
+id → Identificador único.
+class → Agrupa elementos com mesmo estilo.
