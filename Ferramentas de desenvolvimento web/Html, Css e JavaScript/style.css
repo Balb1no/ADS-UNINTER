@@ -1,0 +1,38 @@
+/* Centraliza tudo na tela e define uma fonte moderna */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e3e3e3;
+}
+
+/* Estiliza a caixa do contador */
+.container {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Estilo dos botões */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+/* Cor específica do botão de aumentar */
+#btn-aumentar { background-color: #3498db; color: white; }
+#btn-aumentar:hover { background-color: #2980b9; }
+
+/* Cor específica do botão de zerar */
+#btn-zerar { background-color: #e74c3c; color: white; }
+#btn-zerar:hover { background-color: #c0392b; }

@@ -1,0 +1,91 @@
+/* Reseta as margens padrão do navegador e define a fonte do site */
+body {
+    font-family: Arial, sans-serif; /* Define a família da fonte */
+    margin: 0; /* Remove espaços em branco nas bordas da página */
+    background-color: #f0f2f5; /* Define uma cor de fundo cinza claro */
+}
+
+/* --- ESTILO DA NAVBAR (FLEXBOX) --- */
+.navbar {
+    display: flex; /* Ativa o modo Flexbox neste container */
+    justify-content: space-between; /* Empurra os filhos para as extremidades */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    background-color: #2c3e50; /* Cor de fundo azul escuro */
+    color: white; /* Cor do texto dentro da navbar */
+    padding: 15px 50px; /* Espaçamento interno: 15px cima/baixo, 50px lados */
+}
+
+/* Organiza os links do menu em linha */
+.nav-links {
+    display: flex; /* Faz os itens da lista ficarem lado a lado */
+    list-style: none; /* Remove os pontos/bolinhas da lista */
+    gap: 20px; /* Cria um espaço de 20px entre cada item do menu */
+}
+
+/* Estiliza os textos dos links */
+.nav-links a {
+    color: white; /* Cor branca para o link */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    transition: 0.3s; /* Faz qualquer mudança de cor durar 0.3 segundos */
+}
+
+/* Muda a cor do link quando o mouse passa por cima */
+.nav-links a:hover {
+    color: #3498db; /* Muda para um azul claro no hover */
+}
+
+/* --- ESTILO DO CARD (BOX MODEL) --- */
+.perfil-section {
+    display: flex; /* Usa flexbox para centralizar o card na tela */
+    justify-content: center; /* Centraliza horizontalmente */
+    padding: 40px; /* Dá um respiro entre a navbar e o card */
+}
+
+.card-perfil {
+    background-color: white; /* Fundo branco do cartão */
+    width: 300px; /* Largura fixa para o cartão */
+    padding: 20px; /* Espaço entre o conteúdo e a borda do cartão */
+    border-radius: 15px; /* Arredonda os cantos do cartão */
+    text-align: center; /* Centraliza todo o texto dentro do card */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Cria uma sombra suave atrás */
+}
+
+/* Estilo da imagem redonda dentro do card */
+.card-perfil img {
+    border-radius: 50%; /* Transforma o quadrado da imagem em um círculo */
+    margin-bottom: 15px; /* Empurra o texto para baixo da imagem */
+}
+
+/* --- ESTILO DO BOTÃO (ANIMAÇÃO) --- */
+.btn-cadastrar {
+    background-color: #27ae60; /* Cor de fundo verde */
+    color: white; /* Cor do texto branca */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Cantos levemente arredondados */
+    cursor: pointer; /* Muda o ícone do mouse para a mãozinha */
+    font-weight: bold; /* Deixa o texto em negrito */
+    transition: transform 0.2s; /* Faz o efeito de tamanho ser suave */
+}
+
+/* Efeito de aumentar o botão no hover */
+.btn-cadastrar:hover {
+    transform: scale(1.05); /* Aumenta o botão em 5% ao passar o mouse */
+}
+
+/* --- ESTILO DA GALERIA (GRID) --- */
+.galeria-jogos {
+    display: grid; /* Ativa o modo de grade (Grid) */
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de tamanhos iguais */
+    gap: 20px; /* Define o espaço entre os quadrados da grade */
+    padding: 20px 50px; /* Espaçamento nas laterais da galeria */
+}
+
+/* Estilo de cada quadrado de jogo */
+.jogo-item {
+    background-color: #fff; /* Fundo branco para cada item */
+    padding: 40px; /* Espaço interno para o nome do jogo não encostar */
+    border: 1px solid #ddd; /* Borda fina cinza ao redor */
+    text-align: center; /* Centraliza o nome do jogo */
+    border-radius: 8px; /* Arredonda os cantos do item */
+}

@@ -1,0 +1,28 @@
+<!-- Define que este é um documento HTML5 atualizado -->
+<!DOCTYPE html>
+<!-- Define o idioma da página para português do Brasil -->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Primeiro Script JS</title>
+    <!-- Conectando o arquivo CSS para deixar o contador bonito -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- O span com ID 'valor' é o que o JS vai "atacar" para mudar o número -->
+        <h1>Contador: <span id="valor">0</span></h1>
+        
+        <div class="botoes">
+            <!-- Botão que aumenta o número -->
+            <button id="btn-aumentar">Aumentar +1</button>
+            <!-- Botão que reseta o número para zero -->
+            <button id="btn-zerar">Zerar</button>
+        </div>
+    </div>
+
+    <!-- O Script deve vir por último para garantir que o HTML já carregou -->
+    <script src="script.js"></script>
+</body>
+</html>

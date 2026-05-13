@@ -1,0 +1,60 @@
+<!-- Declaração do tipo de documento para o navegador -->
+<!DOCTYPE html>
+<!-- Início do documento HTML com idioma definido para Português -->
+<html lang="pt-br">
+<head>
+    <!-- Define a codificação de caracteres para evitar erros em acentos -->
+    <meta charset="UTF-8">
+    <!-- Título que aparece na aba do navegador -->
+    <title>Meus Exercícios de CSS Comentados</title>
+    <!-- Conecta este arquivo HTML ao arquivo de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Início da Barra de Navegação (Exercício de Flexbox) -->
+    <nav class="navbar">
+        <!-- Div que guarda o nome da marca ou logo -->
+        <div class="logo">GameLog</div>
+        <!-- Lista não ordenada para os links do menu -->
+        <ul class="nav-links">
+            <!-- Itens da lista com seus respectivos links -->
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Área principal do conteúdo da página -->
+    <main>
+        <!-- Seção para centralizar o cartão de perfil (Exercício de Box Model) -->
+        <section class="perfil-section">
+            <!-- O container do cartão propriamente dito -->
+            <div class="card-perfil">
+                <!-- Imagem de exemplo do perfil -->
+                <img src="https://via.placeholder.com/100" alt="Foto">
+                <!-- Nome do usuário -->
+                <h3>Seu Nome Aqui</h3>
+                <!-- Descrição curta sobre o usuário -->
+                <p>Estudante de Lógica e Futuro Desenvolvedor.</p>
+                <!-- Botão de ação (Exercício de Animação/Hover) -->
+                <button class="btn-cadastrar">Cadastrar Novo Jogo</button>
+            </div>
+        </section>
+
+        <!-- Título da galeria -->
+        <h2 style="text-align: center;">Minha Galeria</h2>
+        <!-- Seção que organiza os itens em grade (Exercício de CSS Grid) -->
+        <section class="galeria-jogos">
+            <!-- Itens individuais da galeria representando jogos -->
+            <div class="jogo-item">The Witcher 3</div>
+            <div class="jogo-item">God of War</div>
+            <div class="jogo-item">Elden Ring</div>
+            <div class="jogo-item">Minecraft</div>
+            <div class="jogo-item">Starfield</div>
+            <div class="jogo-item">FIFA 24</div>
+        </section>
+    </main>
+
+</body>
+</html>

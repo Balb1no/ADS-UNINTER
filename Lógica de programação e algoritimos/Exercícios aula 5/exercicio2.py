@@ -1,5 +1,5 @@
 # Definimos o nome do arquivo que guardará os dados no computador
-ARQUIVO = "jogos.txt"
+ARQUIVO = "Lógica de programação e algoritimos/Exercícios aula 5/jogos.txt"
 
 # --- FUNÇÃO PARA CADASTRAR ---
 def cadastrar_novo():
