@@ -1,0 +1,4 @@
+Jogador: Gabriel | Score: 110
+Jogador: Fulano | Score: 0
+Jogador: Gabriel | Score: 165
+Jogador: Gabriel | Score: 120
